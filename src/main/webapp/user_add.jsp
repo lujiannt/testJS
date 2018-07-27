@@ -7,6 +7,6 @@
     // addUser(user);
 </script>
 <body>
-<h2 class="beautiful-sea">User list!</h2>
+<h2 class="beautiful-sea">User add!</h2>
 </body>
 </html>

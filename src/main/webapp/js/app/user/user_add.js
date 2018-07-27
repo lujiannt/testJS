@@ -1,5 +1,6 @@
-//每个项目模块使用define定义一个模块以供该模块下多个页面使用，
-//而具体的每个页面只需要使用require调用该模块
+/**
+ * user_add
+ */
 require(["app/user/user"], function (user) {
     var userModule = user.module_user;
     userModule.getType();

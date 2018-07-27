@@ -1,4 +1,4 @@
-//require 和 define的区别:require是引入js无返回值，define是定义一个模块可以有返回值
+//require 和 define的区别:require是仅仅引入js且无返回值，define是定义一个模块可以有返回值
 define(["jquery", "jquery.alpha", "jquery.beta", "map"], function () {
     //the jquery.alpha.js and jquery.beta.js plugins have been loaded.
     $(function () {
